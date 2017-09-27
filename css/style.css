@@ -1,0 +1,131 @@
+ /* Classes globales */
+
+body {
+  color:#1E1E1E;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  color: #832722;
+}
+
+/* Navbar */
+
+.NavPerso {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.NavPerso .navbar-brand,
+.NavPerso .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+  transition: all 0.01s linear;
+  -webkit-transition: all 0.01s linear;
+}
+
+.NavPerso .navbar-brand{
+	font-family: 'Arvo', serif;
+	color: #832722;
+}
+
+.NavPerso .navbar-brand:hover,
+.NavPerso .navbar-brand:active,
+.NavPerso .navbar-brand:focus {
+  color: white;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+
+.NavPerso .navbar-nav > li > a:hover,
+.NavPerso .navbar-nav > li > a:active,
+.NavPerso .navbar-nav > li > a:focus,
+.NavPerso .navbar-nav > .open > a,
+.NavPerso .navbar-nav > .open > a:hover,
+.NavPerso .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* bandeau image */
+
+.wrapper {
+  background-image: url('../images/background/background.jpg');
+  height: 550px;
+  background-size: cover;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.lead h1 {
+  font-size: 72px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  color: #832722;
+}
+
+.lead h2 {
+  background: rgba(0, 0, 0, .4);
+  display: inline-block;
+  padding: 0.2em;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+}
+
+/* Boutons */
+
+.btn-primary {
+  background-color: #832722;
+  border-color: white;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: #832722;
+  color: #832722;
+}
+
+/* Separateurs verticaux */
+
+.vertical-spacer {
+  height: 4em;
+}
+
+
+/* Icones */
+
+.feature img {
+  margin-bottom: -1em;
+}
+
+.feature {
+  color: #eeeeee;
+  letter-spacing: 1px;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #1e1e1e;
+  color: #eeeeee;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#footer a {
+  color: #eeeeee;
+}
+
+#footer a:hover {
+  color: #727272;
+}
+
